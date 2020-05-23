@@ -1,0 +1,437 @@
+		@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+		* {
+			box-sizing: border-box;
+			padding: 0;
+			margin: 0;
+		}
+		.body {
+			display: flex;
+			display: -webkit-flex;
+			font-family: Roboto;
+			flex-direction: column;
+		}
+/* ====================== Хэдер с меню ====================== */		
+		.header {
+			background: #f9ca24;
+			height: 19vh;/*174px*/
+			display: flex;
+			display: -webkit-flex;
+			align-items: center;
+			justify-content: space-evenly;
+		}
+		a {
+			text-decoration: none;
+			color:black;
+		}
+		.logo > img {
+			width: 73px;
+			height: 101px;
+		}
+		.nav {
+
+			display: flex;
+			display: -webkit-flex;
+			align-items: center;
+		}
+		.nav > ul {
+			display: flex;
+			display: -webkit-flex;
+			align-items: center;
+		}
+		.nav > ul > li {
+			list-style: none;
+			padding: 1em;
+			font-weight: bold;
+		}
+		.dealer-block {
+			display: flex;
+			display: -webkit-flex;
+			flex-direction: column;
+		}
+		.dealer-block__dealer {
+			margin-top: 1em;
+			background: black;
+			color: white;
+			border: 0.1em solid white;
+			border-radius: 1.5em;
+			padding: 1em;
+			font-weight: bold;
+			align-self: center;
+			letter-spacing: 1px;
+		}
+		.dealer-block__tel {
+			align-self: center;
+			font-weight: bold;
+			padding: 0.1em;
+			font-size: 1em;
+		}
+/* ====================== Первый слайдер ====================== */
+		.upper-slider {
+			position: relative;
+			display: flex;
+			display: -webkit-flex;
+			justify-content: center;
+			flex-direction: column;
+
+		}
+		.upper-slider__wrap {
+			height: 80vh;
+			display: flex;
+			display: -webkit-flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+		}
+		h1 {
+			text-align: center;
+			font-size: 6em;
+			font-weight: normal;
+		}
+		.upper-slider__slogan {
+			font-size: 1.5em;
+			align-self: center;
+		}
+
+		.coin-wrap__upper {
+			display: flex;
+			display: -webkit-flex;
+			justify-content: center;
+			position: absolute;
+			bottom: 7vh;
+			align-self: center;
+		}
+		.coin, .coin-second, .coin-3 {
+			width: 2em;
+			height: 2em;
+			border-radius: 1em;
+			margin-left: 1.62em;
+			margin-right: 1.62em;
+			cursor: pointer;
+			transition: background-color 0.6s ease;
+		}
+		.coin, .coin-3 {
+			background-color: #f9ca24;
+		}
+		.coin-second {
+			background-color: white;
+		}
+
+		.active, .coin:hover, .coin-second:hover, .coin-3:hover {
+			background-color: black;
+		}
+		.upper-slider__prev-next {
+			position: relative;
+			top: -37%;
+			display: flex;
+			justify-content: space-between;
+		}
+		.prev, .next {
+			padding: 1em;
+			cursor: pointer;
+			color: white;
+			font-weight: bold;
+			font-size: 1.2em;
+			transition: 0.6s ease;
+			border-radius: 20%;
+		}
+		.next {
+			border-radius: 30%;	
+		}
+		.prev:hover, .next:hover {
+			background-color: #95afc0;
+			border: 2px solid white;
+		}
+		.fade {
+			-webkit-animation-name: fade;
+			-webkit-animation-duration: 1.5s;
+			animation-name: fade;
+			animation-duration: 1.5s;
+		}
+		@-webkit-keyframes fade{
+			from{opacity:.4}
+			to{opacity:1}
+		}
+		@keyframes fade{
+			from{opacity:.4}
+			to{opacity:1}
+		}
+/* ====================== Второй слайдер ====================== */
+		.second-upper-slider {
+			background: #f9ca24;
+			flex-direction: column;
+			justify-content: space-evenly;
+			position: relative;
+		}
+		.second-upper-slider__wrap {
+			background: #f9ca24;
+			flex-direction: column;
+			justify-content: space-evenly;
+		}
+		h2 {
+			font-size: 6em;
+			font-weight: normal;
+			line-height: 0.8em;
+			padding-top: 0.8em;
+			padding-bottom: 0.4em;
+		}
+		.coin-wrap {
+			display: flex;
+			display: -webkit-flex;
+			position: absolute;
+			right: 0;
+			top: 5vh;
+		}
+		.partners__header, .second-upper-slider__header, .otzivy-slider__header {
+			display: flex;
+			display: -webkit-flex;
+			justify-content: space-between;
+			padding-left: 4em;
+			padding-right: 1em;
+		}
+		.second-upper-slider__text-frame {
+			padding-left: 4em;
+			font-size: 1.5em;
+			padding-bottom: 3em;
+		}
+		.second-upper-slider__prev-next {
+			position: relative;
+			top: -25vh;
+			display: flex;
+			justify-content: space-between;
+		}
+/* ====================== Слайдер с отзывами ====================== */
+		.otzivy-slider__wrap, .price__wrap, .uslugi__wrap {
+			display: flex;
+			display: -webkit-flex;
+			flex-direction: column;
+			background: white;
+			position: relative;
+		}
+		.otzivy-slider__wrap {
+			border-top: solid 1px black;
+			margin-top: 6vh;
+		}
+		.otzivy-slider__text {
+			display: flex;
+			display: -webkit-flex;
+			align-items: center;
+			padding-left: 5.8em;
+		}
+		.partners__header, .otzivy-slider__header, .uslugi__header, .price__header {
+			display: flex;
+			display: -webkit-flex;
+			justify-content: center;
+		}
+		.otzivy-slider__avatar {
+			width: 142px;
+			height: 142px;
+			background: #95afc0;
+			border-radius: 71px;
+			flex-shrink: 0;
+		}
+		.otzivy-slider__text-frame {
+			padding-left: 5.8em;
+			font-size: 1.4em;
+		}
+		.otzivy-slider__wrap > .coin-wrap {
+			align-self: flex-end;
+		}
+		.otzovy-slider__prev-next {
+			position: relative;
+			top: -15vh;
+			display: flex;
+			justify-content: space-between;
+		}
+		.otzovy-slider__prev-next > .prev, .otzovy-slider__prev-next > .next {
+			color: black;
+		}
+/* ====================== Услуги ====================== */
+		.uslugi__content {
+			display: flex;
+			display: -webkit-flex;
+			margin-left: 4em;
+			margin-right: 4em;
+			justify-content: space-evenly;
+		}
+		.uslugi__content__blockheader {
+			font-size: 1.875em;
+			align-self: center;
+			text-align: center;
+			padding-bottom: 0.5em;
+			padding-top: 0.5em;
+			background-color: #f9ca24;
+			border-radius: 30px;
+			width: 506px;
+			height: 124px;
+		}
+		.uslugi__content__block__wrap {
+			display: flex;
+			display: -webkit-flex;
+			flex-direction: column;
+		}
+		.uslugi__content__block > ul {
+			display: flex;
+			display: -webkit-flex;
+			flex-direction: column;
+		}
+		.uslugi__content__block {
+			background: #f9ca24;
+			border-radius: 1.5em;
+		}
+		.uslugi__stats {
+			background: #f9ca24;
+			border-radius: 1.5em;
+			display: flex;
+			display: -webkit-flex;
+			justify-content: space-evenly;
+			padding-top: 1.3em;
+			padding-bottom: 1.3em;
+			margin-left: 4em;
+			margin-right: 4em;
+			margin-top: 2em;
+		}
+		.uslugi__number {
+			font-weight: bold;
+			text-align: center;
+			font-size: 4em;
+			border-bottom: 1px solid black;
+		}
+		.uslugi__type {
+			font-size: 1.5em;
+			text-align: center;
+			font-weight: normal;
+			padding-top: 0.4em;
+		}
+		.uslugi__content__block > ul > li {
+			list-style: none;
+		}
+		.dealer-block__more {
+			background: #f9ca24;
+			color: black;
+			border-radius: 1.5em;
+			padding: 1em;
+			padding-left: 3.5em;
+			padding-right: 3.5em;
+			font-weight: bold;
+			align-self: center;
+			letter-spacing: 1px;
+			margin-bottom: 1em;
+		}
+		.uslugi__content__li {
+			padding-bottom: 0.4em;
+			padding-top: 0.4em;
+			display: flex;
+			display: -webkit-flex;
+			align-items: center;
+			margin-left: 2em;
+		}
+		.disc {
+			width: 1em;
+			height: 1em;
+			background: black;
+			border-radius: 0.5em;
+			margin-left: 1em;
+			margin-right: 2em;
+		}
+/* ====================== Цены ====================== */		
+		.price__wrap {
+			display: flex;
+			display: -webkit-flex;
+			flex-direction: column;
+			margin-left: 20%;
+			margin-right: 20%;
+		}
+		.price__formnames {
+			font-size: 1.5em;
+			margin-bottom: 1em;
+			margin-top: 1em;
+		}
+		.dealer-block__dealer-price {
+			margin-top: 1em;
+			background: black;
+			color: white;
+			border: 0.1em solid white;
+			border-radius: 1.5em;
+			padding: 2em;
+			font-weight: bold;
+			align-self: center;
+			letter-spacing: 1px;
+		}
+/* ====================== Партнёры ====================== */
+		.partners__wrap {
+			display: flex;
+			display: -webkit-flex;
+			flex-direction: column;
+		}
+		.partners__header {
+			align-self: center;			
+		}
+		.partners__mainblock {
+			display: flex;
+			display: -webkit-flex;
+			justify-content: center;
+		}
+		.partner-svg {
+			width: 18vw;
+			height: 18vh;
+		}
+/* ====================== Контакты ====================== */
+		.kontacts__wrap {
+			display: flex;
+			display: -webkit-flex;
+			flex-direction: column;
+		}
+		.kontacts__header {
+			align-self: center;
+		}
+		.kontacts_map {
+			background: #badc58;
+			height: 92vh; 
+		}
+		.kontacts__text {
+			position: relative;
+			top: -65vh;
+			background: #f9ca24;
+			width: 500px;
+			height: 50vh;
+			left: 40px;
+			border-radius: 20px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+		}
+		.kontacts__text-stroka {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin-right: 3vw;
+			margin-left: 3vw;
+
+		}
+		.kontacts__text-stroka > div {
+			text-align: right;
+			font-size: 1.357em;
+		}
+		.kontacts__text-stroka > div.kontacts__tel {
+			font-weight: bold;
+		}
+		.fa {
+			font-size: 2em;
+		}
+/* ====================== Модальное окно ====================== */
+		#myModal {
+			display: none;
+			background:  rgba(156, 168, 185, 0.9);
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 0;
+			text-align: center;
+			padding-top: 10vh;
+		}
+		.close {
+			vertical-align: top;
+			position: fixed;
+			right: 10px;
+			top: 10px;
+		}

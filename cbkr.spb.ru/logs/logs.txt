@@ -1,0 +1,186 @@
+﻿11.03.2020 17:26:41
+Не пройдена валидация поля: captcha! Указанный код QI48cE не соответствует сгенерированному на сервере Ql48cE
+-------------------------
+11.03.2020 17:27:11
+Ошибка при отправке письма: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+-------------------------
+11.03.2020 17:27:46
+Ошибка при отправке письма: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+-------------------------
+11.03.2020 17:28:06
+Ошибка при отправке письма: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+-------------------------
+11.03.2020 17:40:45
+Письмо успешно отправлено!
+Имя пользователя: Гельмут
+Адрес email: 88008maxa@gmail.com
+Сообщение: Готов решить вашу задачу. Готов немедленно приступить
+Есть вопросы по вашему заданию
+Жду от вас обратной связи в личку. Напишите мн
+Файлы:
+/var/www/testkart/data/www/test-karta.h1n.ru/feedback/uploads/upload_5e68f86befc310.56523700.png
+
+-------------------------
+11.03.2020 17:47:08
+Не пройдена валидация поля: captcha! Указанный код qnUpuI не соответствует сгенерированному на сервере qnUpul
+-------------------------
+11.03.2020 17:47:22
+Не пройдена валидация поля: captcha! Указанный код nxcOPG не соответствует сгенерированному на сервере nxc0PG
+-------------------------
+11.03.2020 17:47:43
+Письмо успешно отправлено!
+Имя пользователя: Max
+Адрес email: 88008maxa@gmail.com
+Сообщение: Готов решить вашу задачу. Готов немедленно приступить
+Есть вопросы по вашему заданию
+Жду от вас обратной связи в личку. Напишите мн
+Файлы:
+/var/www/testkart/data/www/test-karta.h1n.ru/feedback/uploads/upload_5e68fa0c9b44f3.80180277.png
+/var/www/testkart/data/www/test-karta.h1n.ru/feedback/uploads/upload_5e68fa0c9b4a96.05126720.png
+
+-------------------------
+11.03.2020 17:50:12
+Ошибка при отправке письма: Could not instantiate mail function.
+-------------------------
+11.03.2020 17:50:53
+Письмо успешно отправлено!
+Имя пользователя: test
+Адрес email: 88008maxa@gmail.com
+Сообщение: Готов решить вашу задачу. Готов немедленно приступить
+Есть вопросы по вашему заданию
+Жду от вас обратной связи в личку. Напишите мн
+Файлы:
+/var/www/testkart/data/www/test-karta.h1n.ru/feedback/uploads/upload_5e68facaf06d57.87950842.png
+/var/www/testkart/data/www/test-karta.h1n.ru/feedback/uploads/upload_5e68facaf074c4.76701746.png
+
+-------------------------
+18.03.2020 18:12:26
+Ошибка при отправке письма: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+-------------------------
+18.03.2020 18:12:40
+Ошибка при отправке письма: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+-------------------------
+18.03.2020 18:12:43
+Ошибка при отправке письма: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+-------------------------
+18.03.2020 18:12:52
+Не пройдена валидация поля: captcha! Указанный код lq9cGt не соответствует сгенерированному на сервере Iq9cGt
+-------------------------
+18.03.2020 18:13:01
+Не пройдена валидация поля: captcha! Указанный код ntyNqK не соответствует сгенерированному на сервере nryNqK
+-------------------------
+18.03.2020 18:13:12
+Ошибка при отправке письма: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+-------------------------
+18.03.2020 18:13:48
+Ошибка при отправке письма: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+-------------------------
+18.03.2020 18:14:43
+Не пройдена валидация поля: captcha! Указанный код lhDeGK не соответствует сгенерированному на сервере lhDe6K
+-------------------------
+18.03.2020 18:14:54
+Ошибка при отправке письма: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+-------------------------
+18.03.2020 18:34:32
+Ошибка при отправке письма: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+-------------------------
+18.03.2020 18:38:35
+Ошибка при отправке письма: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+-------------------------
+18.03.2020 18:38:36
+Ошибка при отправке письма: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+-------------------------
+18.03.2020 18:39:59
+Ошибка при отправке письма: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+-------------------------
+18.03.2020 18:40:58
+Ошибка при отправке письма: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+-------------------------
+18.03.2020 18:41:40
+Ошибка при отправке письма: SMTP Error: data not accepted.SMTP server error: DATA END command failed Detail: [2] Message rejected under suspicion of SPAM; https://ya.cc/1IrBc 1584546100-qBAfkPZIJJ-feb05UAp
+ SMTP code: 554 Additional SMTP info: 5.7.1
+-------------------------
+18.03.2020 18:50:02
+Не пройдена валидация поля: captcha! Указанный код 2FbfLX не соответствует сгенерированному на сервере mjRbw0
+-------------------------
+18.03.2020 18:50:18
+Ошибка при отправке письма: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+-------------------------
+18.03.2020 18:50:23
+Ошибка при отправке письма: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+-------------------------
+18.03.2020 19:21:24
+Не пройдена валидация поля: captcha! Указанный код v2g4YI не соответствует сгенерированному на сервере v2g4Yl
+-------------------------
+18.03.2020 19:21:35
+Письмо успешно отправлено!
+Имя пользователя: Sevcher Narishkin
+Адрес email: seva.sven@gmail.com
+Сообщение: выфыфвыфвфывыфвфывsadasdasdasdasd
+
+-------------------------
+18.03.2020 19:22:15
+Не пройдена валидация поля: captcha! Указанный код lA5p9j не соответствует сгенерированному на сервере IA5p9j
+-------------------------
+18.03.2020 19:22:24
+Письмо успешно отправлено!
+Имя пользователя: Sevcher Narishkin
+Адрес email: seva.sven@gmail.com
+Сообщение: fasfsadasdasdasdsadasdasdasdasdsad
+
+-------------------------
+18.03.2020 19:25:23
+Письмо успешно отправлено!
+Имя пользователя: Labutin Maksim
+Адрес email: 88008maxa@gmail.com
+Сообщение: gjhjvjbvn vncvjhgfujgfhgcch
+
+-------------------------
+18.03.2020 19:27:28
+Ошибка при отправке письма: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+-------------------------
+18.03.2020 19:27:31
+Ошибка при отправке письма: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+-------------------------
+18.03.2020 19:27:32
+Ошибка при отправке письма: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+-------------------------
+18.03.2020 19:30:05
+Ошибка при отправке письма: SMTP Error: data not accepted.SMTP server error: DATA END command failed Detail: [2] Message rejected under suspicion of SPAM; https://ya.cc/1IrBc 1584549005-w0zMOpvF3Q-U4caFgO0
+ SMTP code: 554 Additional SMTP info: 5.7.1
+-------------------------
+18.03.2020 19:30:10
+Письмо успешно отправлено!
+Имя пользователя: Sevcher Narishkin
+Адрес email: seva.sven@gmail.com
+Сообщение: wdqweqweqweqweqweqweqweqweqwewqe
+
+-------------------------
+18.03.2020 19:30:44
+Письмо успешно отправлено!
+Имя пользователя: Sevcher Narishkin
+Адрес email: seva.sven@gmail.com
+Сообщение: weqweqweqweqweqweqweqweqweqweqweqw
+
+-------------------------
+27.03.2020 13:11:37
+Письмо успешно отправлено!
+Имя пользователя: Марина
+Адрес email: cbkr_pochta@mail.ru
+Сообщение: угоркечыгfgmjdzhdzhdzh
+
+-------------------------
+07.04.2020 18:27:53
+Письмо успешно отправлено!
+Имя пользователя: Гельмут
+Адрес email: 88008maxa@gmail.com
+Сообщение: все такое блин ваще это
+
+-------------------------
+23.05.2020 10:45:11
+Письмо успешно отправлено!
+Имя пользователя: Labutin Maksim
+Адрес email: 88008maxa@gmail.com
+Сообщение: Чекаем пиьсма с сайта
+
+-------------------------
